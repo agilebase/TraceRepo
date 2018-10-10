@@ -49,12 +49,12 @@ public class infotest {
 		Assert.assertEquals(bank, dt.getBank());
 		
 	}
-	@Test
+	/*@Test
    public void testsetbank() {
 	   bank="HDFC";
 	   dt.setBank("HDFC");
 	   Assert.assertEquals(bank, dt.getBank());
-   }
+   }*/
 	
 	
 	
