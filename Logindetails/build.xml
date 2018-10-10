@@ -3,7 +3,7 @@
 	To include a user specific buildfile here, simply create one in the same 
 	directory with the processing instruction <?eclipse.ant.import?> as the first 
 	entry and export the buildfile again. -->
-<project basedir="." default="getwar" name="logindetails" xmlns:if="ant:if">
+<project basedir="." default="build" name="logindetails" xmlns:if="ant:if">
 	<property environment="env" />
 	<property name="ECLIPSE_HOME" value="C:/eclipse" />
 	<property name="junit.output.dir" value="junit" />
@@ -82,7 +82,7 @@
             </fileset>
         </copy>
     </target>
-    <target name="clean" depends="init">
+    <target name="clean">
         <delete>
     	<fileset dir="${build.dir}">
 	        <include name="**/*.class"/>
