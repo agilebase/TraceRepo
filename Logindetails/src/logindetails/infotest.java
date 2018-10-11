@@ -19,7 +19,7 @@ public class infotest {
 	
 	@Test
 	public void testsetName() {
-		name="fdsa";
+		name="WID";
 		dt.setName(name);
 		Assert.assertEquals(name,dt.getName());
 		
@@ -30,7 +30,7 @@ public class infotest {
 	}
 	@Test
 	public void testsetemailId() {
-		emailId="abc@gmail.com";
+		emailId="qwerty@gmail.com";
 		dt.setEmailId(emailId);
 		Assert.assertEquals(emailId,dt.getEmailId());
 	}
@@ -40,7 +40,7 @@ public class infotest {
 	}
 	@Test
 	public void testsetContactNo() {
-		contactNo=123;
+		contactNo=8812;
 		dt.setContactNo(contactNo);
 		Assert.assertEquals(contactNo,dt.getContactNo());
 	}
