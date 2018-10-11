@@ -19,16 +19,16 @@
 <div class="w3-container w3-black">
 <div class="row" style="background:black">
 <div class="col-sm-2">
-Info
+	<p>Info</p>
 </div>
 <div class="col-sm-2">
-Site Map
+	<p>Site Map</p>
 </div>
 <div class="col-sm-3">
-<b>Services</b>
+	<p><b>Services</b></p>
 </div>
 <div class="col-sm-3">
-Contact Us
+	<p>Contact Us</p>
 </div>
 <div class="col-sm-2">
  <div class="col-sm-1">Welcome   
