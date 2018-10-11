@@ -13,7 +13,7 @@ font-size:24px;
 </style>
 <body style="background-color:Darksalmon">
 <h1>Welcome home!</h1>
-<a href="/logindetails/index.jsp" style="text-decoration: none; font-size=24px"> Go to info page</a>
+<a href="/logindetails/index.jsp" style="text-decoration: none; font-size=24px"> <b>Go to info page<b></a>
 <img src="user.jpg" alt="User Info">
 
 </body>
