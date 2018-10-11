@@ -104,6 +104,7 @@ angular.module('app', []);
 
 angular.module('app').controller('mainCtrl', function($scope) {
     $scope.userInfo = [];
+	$scope.bank = [];
     $scope.bank = ["HDFC", "SBI", "Indian Bank"];
     $scope.addItem = function(data) {
         $scope.userInfo.push(data);
