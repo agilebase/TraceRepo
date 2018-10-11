@@ -133,6 +133,18 @@ angular.module('app').controller('mainCtrl', function($scope) {
 	//$scope.addList=function(val){
 	
 });
+   function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+	   var x1 = document.forms["myForm"]["fname1"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+   if (x1 == "") {
+        alert("Password must be filled out");
+        return false;
+    }
+}
 </script>
 </table>
 </body>
